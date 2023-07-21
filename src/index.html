@@ -5,18 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GSAP + Parcel</title>
 
+    <link rel="stylesheet" href="../node_modules/reveal.js/dist/reveal.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/reveal.js/dist/theme/black.css"
+    />
     <link rel="stylesheet" href="scss/main.scss" />
     <script type="module" src="main.js"></script>
   </head>
   <body>
     <include src="header.html"></include>
-    <div class="container">
-      <div id="unit1" class="unit"></div>
-      <div id="unit2" class="unit"></div>
-      <div id="unit3" class="unit"></div>
-    </div>
-    <div class="text-container">
-      <h1>Loading</h1>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2>First slide</h1>
+        </section>
+        <section>
+          <h2>Next slide</h1>
+        </section>
+        <section>
+          <div class="container">
+            <div id="unit1" class="unit"></div>
+            <div id="unit2" class="unit"></div>
+            <div id="unit3" class="unit"></div>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
